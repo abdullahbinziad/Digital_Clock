@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital watch by JS beautiful</title>
+    <style>
+        body{
+            background-color: #292D39;  }
+            .container{margin: 0 auto;
+            padding: 80px; 
+        width: 70%;
+    height: 700px; }
+    .clock{
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+        color:#fff;
+        text-align: center;
+        font-size: 100px;
+    }
+    @media screen and (max-width: 480px) {
+        .clock{
+        font-size: 130%;
+    }
+    #day_date{ font-size: 145% !important;width: 100% !important;}
+}
+
+    #hour{background: #F95657;
+    border-radius: 10px;
+    padding: 15px;}
+    #min{background: #2CCA75;
+    border-radius: 10px;
+    padding: 15px;}
+    #sec{background: #F6BC58;
+    border-radius: 10px;
+    padding: 15px;}
+    #ampm{background: #F95657;
+    border-radius: 10px;
+    padding: 15px;}
+    #day_date{display: flex; justify-content: space-around; background: #39414E;
+    font-size: 30px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    color: wheat;}
+    #day{}
+    #maindate{}
+
+    </style>
+</head>
+<body>
+ <div class="container">
+     <div class="clock">
+
+        <span id="hour">    </span>
+ 
+        <span id="min">  </span>
+  
+        <span id="sec">   </span>
+        
+        <span id="ampm">  </span>     
+     </div>
+     <div id="day_date"> <span id="dayname"> 6536 </span> <span id="maindate"> 363 </span> </div>
+
+
+</body>
+<script src="/index.js"></script>
+</html>
